@@ -21,14 +21,14 @@ $(document).ready(function () {
   });
   // end icon two whatwedo
 
-  // // start icon3 whatwedo
-  // $("#img3").click(function () {
-  //   $("#img3").hide();
-  //   $(".prm").show();
-  // });
-  // $(".prm").click(function () {
-  //   $(".prm").hide();
-  //   $("#img3").show();
-  // });
-  // // end icon3 whatwedo
+  // start icon3 whatwedo
+  $("#img3").click(function () {
+    $("#img3").hide();
+    $(".prm").show();
+  });
+  $(".prm").click(function () {
+    $(".prm").hide();
+    $("#img3").show();
+  });
+  // end icon3 whatwedo
 });
