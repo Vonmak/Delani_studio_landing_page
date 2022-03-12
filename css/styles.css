@@ -60,3 +60,31 @@
   display: flex;
   justify-content: space-around;
 }
+.contact {
+  height: 70vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+form {
+  padding: 30px;
+}
+input {
+  border-radius: 5px;
+  border-color: white;
+  color: #fff;
+  background-color: transparent;
+  padding: 10px;
+  margin: 10px;
+}
+textarea {
+  border-radius: 5px;
+  border-color: white;
+  color: #fff;
+  background-color: transparent;
+  margin: 10px;
+}
+/* .footer {
+  height: 25vh;
+} */
