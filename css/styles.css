@@ -85,6 +85,17 @@ textarea {
   background-color: transparent;
   margin: 10px;
 }
-/* .footer {
+.footer {
   height: 25vh;
-} */
+  text-align: center;
+  padding: 50px;
+}
+p {
+  margin: 10px;
+}
+.icon {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
