@@ -34,3 +34,13 @@
   /* align-items: center; */
   text-align: center;
 }
+.whatDo {
+  height: 40vh;
+  text-align: center;
+  padding: 50px;
+}
+.wedo {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
