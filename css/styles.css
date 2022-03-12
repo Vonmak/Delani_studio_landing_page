@@ -44,3 +44,19 @@
   display: flex;
   justify-content: space-around;
 }
+.port {
+  height: 90vh;
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+}
+.one {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.two {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
