@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+/* start of home section */
 .home {
   background-size: cover;
   height: 100vh;
@@ -18,12 +19,18 @@
   /* align-items: center; */
   text-align: center;
 }
+/* end of home section */
+
+/* start of about section */
 .about {
   width: 100%;
   height: 35vh;
   text-align: center;
   padding: 50px;
 }
+/* end of about section */
+
+/* start of services section */
 .service {
   width: 100%;
   height: 55vh;
@@ -34,6 +41,9 @@
   /* align-items: center; */
   text-align: center;
 }
+/* end of services section */
+
+/* start of what we do section */
 .whatDo {
   height: 40vh;
   text-align: center;
@@ -44,6 +54,9 @@
   display: flex;
   justify-content: space-around;
 }
+/* end of what we do section */
+
+/* start of portfolio section */
 .port {
   height: 90vh;
   width: 100%;
@@ -60,7 +73,9 @@
   display: flex;
   justify-content: space-around;
 }
+/* end of the portfolio section */
 
+/* start of the contact section */
 .contact {
   height: 70vh;
   width: 100%;
@@ -92,6 +107,13 @@ button {
   color: #fff;
   border-color: #fff;
 }
+.status {
+  width: fit-content;
+  color: greenyellow;
+}
+/* end of the contact section */
+
+/* start of the footer section */
 .footer {
   height: 25vh;
   text-align: center;
@@ -106,3 +128,4 @@ p {
   display: flex;
   justify-content: space-around;
 }
+/* end of the footer section */
