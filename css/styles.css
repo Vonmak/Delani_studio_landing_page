@@ -60,6 +60,7 @@
   display: flex;
   justify-content: space-around;
 }
+
 .contact {
   height: 70vh;
   width: 100%;
@@ -84,6 +85,12 @@ textarea {
   color: #fff;
   background-color: transparent;
   margin: 10px;
+}
+button {
+  width: 59%;
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
 }
 .footer {
   height: 25vh;
