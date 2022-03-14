@@ -31,4 +31,25 @@ $(document).ready(function () {
     $("#img3").show();
   });
   // end icon3 whatwedo
+
+  // form start
+  $(".submit").click(function (event) {
+    let name = $(".name").val();
+    let email = $(".email").val();
+    let message = $(".message").val();
+    let status = $(".status");
+    status.empty();
+
+    if (
+      email.includes("@") &&
+      email.includes(".") &&
+      message > 10 &&
+      name > 2
+    ) {
+      status.append("<div>Thanks your email has been received</div>");
+    } else {
+      event.preventDefault();
+      status.append("<div>OOPs Not Valid");
+    }
+  });
 });
