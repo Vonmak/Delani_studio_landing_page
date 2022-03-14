@@ -19,6 +19,13 @@
   /* align-items: center; */
   text-align: center;
 }
+.mouse {
+  position: absolute;
+  bottom: 0px;
+}
+.ms {
+  margin-left: 700px;
+}
 /* end of home section */
 
 /* start of about section */
