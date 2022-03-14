@@ -57,6 +57,7 @@
 /* end of what we do section */
 
 /* start of portfolio section */
+/* global portfolio */
 .port {
   height: 90vh;
   width: 100%;
@@ -73,6 +74,45 @@
   display: flex;
   justify-content: space-around;
 }
+/* end of global portfolio */
+
+/* work8 in portfolio */
+#work8 {
+  position: relative;
+}
+
+.image8 {
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.w8 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#work8:hover .image8 {
+  opacity: 0.3;
+}
+
+#work8:hover .w8 {
+  opacity: 1;
+}
+
+.txt8 {
+  background-color: #fff;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+/* end of work8  */
 /* end of the portfolio section */
 
 /* start of the contact section */
