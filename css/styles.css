@@ -76,6 +76,44 @@
 }
 /* end of global portfolio */
 
+/* work6 in portfolio */
+#work6 {
+  position: relative;
+}
+
+.image6 {
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.w6 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#work6:hover .image6 {
+  opacity: 0.3;
+}
+
+#work6:hover .w6 {
+  opacity: 1;
+}
+
+.txt6 {
+  background-color: #fff;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+/* end of work6  */
+
 /* work7 in portfolio */
 #work7 {
   position: relative;
