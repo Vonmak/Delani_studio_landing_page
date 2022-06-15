@@ -12,7 +12,7 @@ this project is a landing page for a gallery store that shows its work and has a
 
 ## live-page
 
-https://vonmak.github.io/ip3/
+[view site](https://vonmak.github.io/Delani_studio_landing_page/)
 
 ## process
 
